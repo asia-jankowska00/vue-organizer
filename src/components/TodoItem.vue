@@ -1,8 +1,11 @@
 <template>
   <h1 v-bind:class="{ 'is-complete': todo.completed }" @click="markComplete">
-    <input type="checkbox" v-on:change="markComplete" />
-    {{ todo.title }}
-    <button @click="$emit('del-todo', todo.id)">x</button>
+    <v-checkbox :label="todo.title" type="checkbox" @change="markComplete" />
+
+    <v-btn icon @click="$emit('del-todo', todo.id)">
+      <v-icon>mdi-delete</v-icon>
+    </v-btn>
+    <!-- <v-button @click="$emit('del-todo', todo.id)">x</v-button> -->
   </h1>
 </template>
 
