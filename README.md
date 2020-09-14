@@ -1,24 +1,17 @@
-# vue-organizer
+# Vue Organizer
+> Organization helper app
 
-## Project setup
-```
-npm install
-```
+This is a vue project focusing on creating a Material Design organization app - todo list, calendar, and kanban board. In the future note taking might be implemented as an extra :)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### 🚀 Features
+- Todo-list
+- Calendar
+- Kanban board
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### ⚙️ Technology
+- Vue
+- Vuex
+- Vuetify
+- Firebase
